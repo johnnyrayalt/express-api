@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "lib": ["es6"],
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "target": "es6",
+    "allowJs": true,
+    "rootDir": "src",
+    "removeComments": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "experimentalDecorators": true
+  },
+  "compileOnSave": true,
+  "include": [
+    "src"
+  ]
+}
